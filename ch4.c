@@ -4,8 +4,6 @@
 
 // CHAPTER 4: POINTERS & ARRAYS
 
-
-
 // Display array contents using bracket notation
 void display_array_a_i(int arr[], int len) {
       for (int i = 0; i < len; i++) {
@@ -50,7 +48,6 @@ int main()
             printf("matrix[%d]: %p  sizeof(matrix[%d]): %lu\n", i, &matrix[i], i, sizeof(matrix[i]));
             // Output is 12 because each row is 3 ints. 3 * 4 = 12. 
       }
-
 
       int matrix_len = sizeof(matrix) / sizeof(int); 
       printf("Length of matrix: %d\n", matrix_len);   // length, i.e how many elements are in matrix
